@@ -3,9 +3,14 @@ public class Pokemon {
    protected String nomPokemon;
    protected int hp;
    protected int atk;
-/*
-constructeur pokemon
- */
+
+
+    /**
+     * Constructeur pokemon
+     * @param nomPokemon
+     * @param hp
+     * @param atk
+     */
     public Pokemon(String nomPokemon, int hp, int atk) {
         this.nomPokemon = nomPokemon;
         this.hp = hp;

@@ -1,5 +1,10 @@
 public class PokemonFeu extends Pokemon  {
-
+    /**
+     *
+     * @param nomPokemon
+     * @param hp
+     * @param atk
+     */
     public PokemonFeu(String nomPokemon, int hp, int atk) {
         super(nomPokemon, hp, atk);
     }
